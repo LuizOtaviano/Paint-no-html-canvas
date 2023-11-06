@@ -1,1 +1,46 @@
 @charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+#controls {
+  width: 90%;
+  border: 2px solid black;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+#espessura {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#espessura output {
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#tela {
+  border: 2px solid black;
+  width: 90%;
+  height: 90%;
+}

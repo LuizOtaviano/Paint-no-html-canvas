@@ -8,6 +8,28 @@
 </head>
 <body>
   
+  <div id="controls">
+
+    <abbr title="Cor">
+      <input type="color" name="color" id="icolor">
+    </abbr>
+
+    <abbr title="Espessura">
+      <div id="espessura">
+        <input type="range" name="strong" id="istrong" min="1" max="5">
+        <output>0</output>
+      </div>
+    </abbr>
+
+    <abbr title="Borracha">
+      <img id="ierase" alt="icone borracha" src="assets/icons/icon-erase.svg">
+    </abbr>
+    
+  </div>
+
+  <canvas id="tela" width="500px" height="500px">
+
+  </canvas>
 
   <script src="script.js"></script>
 </body>
