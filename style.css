@@ -19,7 +19,6 @@ abbr {
 }
 
 #controls {
-  width: 90%;
   border: 2px solid black;
   padding: 15px;
   display: flex;
@@ -39,8 +38,6 @@ abbr {
   font-weight: bold;
 }
 
-#tela {
+#screen {
   border: 2px solid black;
-  width: 90%;
-  height: 90%;
 }
